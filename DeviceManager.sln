@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManager.Client", "DeviceManager.Client\DeviceManager.Client.csproj", "{AEAAA9F7-9429-42A0-B68C-FD12A71B0FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManager.Entity", "DeviceManager.Entity\DeviceManager.Entity.csproj", "{F67A75C6-6438-4469-92E6-1C69DB0CCB58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManager.Web", "DeviceManager.Web\DeviceManager.Web.csproj", "{EB9DD445-0298-4F38-9371-618B102C84B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEAAA9F7-9429-42A0-B68C-FD12A71B0FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEAAA9F7-9429-42A0-B68C-FD12A71B0FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEAAA9F7-9429-42A0-B68C-FD12A71B0FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEAAA9F7-9429-42A0-B68C-FD12A71B0FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9DD445-0298-4F38-9371-618B102C84B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9DD445-0298-4F38-9371-618B102C84B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9DD445-0298-4F38-9371-618B102C84B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9DD445-0298-4F38-9371-618B102C84B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67A75C6-6438-4469-92E6-1C69DB0CCB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67A75C6-6438-4469-92E6-1C69DB0CCB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67A75C6-6438-4469-92E6-1C69DB0CCB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67A75C6-6438-4469-92E6-1C69DB0CCB58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DeviceManager.Client\DeviceManager.Client.csproj
+	EndGlobalSection
+EndGlobal
