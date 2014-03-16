@@ -19,7 +19,6 @@ namespace DeviceManager.Entity
 		public string Model { get; set; }
 
 		public virtual ICollection<Device> Devices { get; set; }
-
 	}
 }
 

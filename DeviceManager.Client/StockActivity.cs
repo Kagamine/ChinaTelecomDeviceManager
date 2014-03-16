@@ -36,6 +36,7 @@ namespace DeviceManager.Client
 		}
 		public async void Scan(object sender, EventArgs e)
 		{
+			txtCode.Text = "";
 			MobileBarcodeScanner scanner;
 			scanner = new MobileBarcodeScanner(this);
 			scanner.UseCustomOverlay = false;
@@ -44,7 +45,7 @@ namespace DeviceManager.Client
 			scanner.FlashButtonText = "开灯";
 			var result = await scanner.Scan();
 			new AlertDialog.Builder(this)
-				.SetTitle("提示")
+				.SetTitle("入库提示")
 				.SetMessage("串码： " + result.Text + "\n型号： " + lst[lstDevice.SelectedItemPosition] + "\n是否入库？")
 				.SetPositiveButton("确定", Scan)
 				.SetNeutralButton("取消", delegate 

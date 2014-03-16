@@ -34,6 +34,12 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\Packages\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF5">
+      <HintPath>..\Packages\MySql.Data.Entity.EF5.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -50,6 +56,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Dal\DB.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
@@ -60,4 +67,14 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="Dal\" />
+    <Folder Include="Bll\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceManager.Entity\DeviceManager.Entity.csproj">
+      <Project>{F67A75C6-6438-4469-92E6-1C69DB0CCB58}</Project>
+      <Name>DeviceManager.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

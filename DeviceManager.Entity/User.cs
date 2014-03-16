@@ -17,6 +17,9 @@ namespace DeviceManager.Entity
 		[Column("password")]
 		public string Password { get; set; }
 
+		[Column("display_name")]
+		public string DisplayName{ get; set; }
+
 		[Column("access_token")]
 		public string AccessToken { get; set; }
 
@@ -24,12 +27,13 @@ namespace DeviceManager.Entity
 		[ForeignKey("Role")]
 		public int RoleAsInt{ get; set;}
 
+		[NotMapped]
 		public UserRole Role 
 		{ 
 			get{ return (UserRole)RoleAsInt; } 
 			set{ RoleAsInt = (int)value; } 
 		}
 	}
+
 	public enum UserRole { StockManager, Seller, Root }
 }
-

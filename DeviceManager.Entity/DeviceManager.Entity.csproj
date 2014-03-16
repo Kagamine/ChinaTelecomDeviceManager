@@ -39,6 +39,10 @@
     <Compile Include="User.cs" />
     <Compile Include="DeviceType.cs" />
     <Compile Include="Device.cs" />
+    <Compile Include="Scan.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="mysql.sql" />
+  </ItemGroup>
 </Project>

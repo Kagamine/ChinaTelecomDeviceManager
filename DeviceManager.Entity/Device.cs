@@ -16,6 +16,9 @@ namespace DeviceManager.Entity
 		public int DeviceTypeID { get; set; }
 
 		public virtual DeviceType DeviceType { get; set; }
+
+		[Column("first_scan_time")]
+		public DateTime FirstScanTime { get; set; }
 	}
 }
 
