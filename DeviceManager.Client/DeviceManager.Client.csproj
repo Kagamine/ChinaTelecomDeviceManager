@@ -28,6 +28,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -45,6 +46,15 @@
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="System.Net" />
+    <Reference Include="ZXing.Net.Mobile">
+      <HintPath>..\..\..\Downloads\zxing.net.mobile-1.4.2\lib\android\ZXing.Net.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.monoandroid">
+      <HintPath>..\..\..\Downloads\zxing.net.mobile-1.4.2\lib\android\zxing.monoandroid.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\..\..\Downloads\ZXing.Net.Mobile-master\Build\Debug\monodroid\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -54,6 +64,7 @@
     <Compile Include="Bll\StaticVariables.cs" />
     <Compile Include="Entity\Device.cs" />
     <Compile Include="StockActivity.cs" />
+    <Compile Include="Adapters\lstDeviceAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -70,5 +81,6 @@
   <ItemGroup>
     <Folder Include="Bll\" />
     <Folder Include="Entity\" />
+    <Folder Include="Adapters\" />
   </ItemGroup>
 </Project>

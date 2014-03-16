@@ -16,7 +16,7 @@ namespace DeviceManager.Client
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.Main);
 			Button btnAuth = FindViewById<Button>(Resource.Id.btnAuth);
-			btnAuth.Click += (object sender, EventArgs e) => 
+			btnAuth.Click += delegate
 			{
 				EditText txtUsername = FindViewById<EditText>(Resource.Id.txtUsername);
 				EditText txtPassword = FindViewById<EditText>(Resource.Id.txtPassword);
@@ -32,6 +32,7 @@ namespace DeviceManager.Client
 				if(result != "")
 				{
 					new AlertDialog.Builder(this).SetTitle("错误").SetMessage("您的用户名或密码不正确，请重试！").Show();
+					StartActivity(typeof(StockActivity));
 				}
 				else
 				{

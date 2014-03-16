@@ -26,6 +26,9 @@ namespace DeviceManager.Client
 		
 		public static void UpdateIdValues()
 		{
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::DeviceManager.Client.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::DeviceManager.Client.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::DeviceManager.Client.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Attribute
@@ -47,6 +50,9 @@ namespace DeviceManager.Client
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int monoandroidsplash = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -60,35 +66,38 @@ namespace DeviceManager.Client
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050005
-			public const int btnAuth = 2131034117;
+			// aapt resource value: 0x7f060005
+			public const int btnAuth = 2131099653;
 			
-			// aapt resource value: 0x7f050008
-			public const int btnScan = 2131034120;
+			// aapt resource value: 0x7f060008
+			public const int btnScan = 2131099656;
 			
-			// aapt resource value: 0x7f050009
-			public const int btnSubmit = 2131034121;
+			// aapt resource value: 0x7f060009
+			public const int btnSubmit = 2131099657;
 			
-			// aapt resource value: 0x7f050004
-			public const int chkRemember = 2131034116;
+			// aapt resource value: 0x7f060004
+			public const int chkRemember = 2131099652;
 			
-			// aapt resource value: 0x7f050006
-			public const int lstDevice = 2131034118;
+			// aapt resource value: 0x7f06000a
+			public const int contentFrame = 2131099658;
 			
-			// aapt resource value: 0x7f050000
-			public const int textView1 = 2131034112;
+			// aapt resource value: 0x7f060006
+			public const int lstDevice = 2131099654;
 			
-			// aapt resource value: 0x7f050002
-			public const int textView2 = 2131034114;
+			// aapt resource value: 0x7f060000
+			public const int textView1 = 2131099648;
 			
-			// aapt resource value: 0x7f050007
-			public const int txtCode = 2131034119;
+			// aapt resource value: 0x7f060002
+			public const int textView2 = 2131099650;
 			
-			// aapt resource value: 0x7f050003
-			public const int txtPassword = 2131034115;
+			// aapt resource value: 0x7f060007
+			public const int txtCode = 2131099655;
 			
-			// aapt resource value: 0x7f050001
-			public const int txtUsername = 2131034113;
+			// aapt resource value: 0x7f060003
+			public const int txtPassword = 2131099651;
+			
+			// aapt resource value: 0x7f060001
+			public const int txtUsername = 2131099649;
 			
 			static Id()
 			{
@@ -108,6 +117,12 @@ namespace DeviceManager.Client
 			
 			// aapt resource value: 0x7f030001
 			public const int Stock = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int zxingscanneractivitylayout = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int zxingscannerfragmentlayout = 2130903043;
 			
 			static Layout()
 			{
@@ -134,6 +149,22 @@ namespace DeviceManager.Client
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int Mono_Android_Theme_Splash = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

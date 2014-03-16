@@ -1,17 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceManager.Client/MainActivity.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceManager.Client/StockActivity.cs">
     <Files>
-      <File FileName="DeviceManager.Client/MainActivity.cs" Line="38" Column="40" />
-      <File FileName="DeviceManager.Client/Bll/HttpHelper.cs" Line="55" Column="27" />
-      <File FileName="DeviceManager.Client/Bll/StaticVariables.cs" Line="17" Column="23" />
-      <File FileName="DeviceManager.Client/Entity/Device.cs" Line="9" Column="21" />
-      <File FileName="DeviceManager.Client/StockActivity.cs" Line="20" Column="43" />
+      <File FileName="DeviceManager.Client/StockActivity.cs" Line="25" Column="32" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
+      <File FileName="DeviceManager.Client/MainActivity.cs" Line="35" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.DeviceManager.Client AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" MonoForAntroid.PreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.ItemProperties.DeviceManager.Client MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" MonoForAntroid.PreferredTheme="Theme.DeviceDefault" AndroidDeviceId-Release="ZTE-N919" />
 </Properties>
